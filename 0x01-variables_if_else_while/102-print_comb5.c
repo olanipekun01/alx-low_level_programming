@@ -10,34 +10,38 @@ int main(void)
 {
 	int m, n, o, p;
 
-	for (m = 48; m <= 57; m++)
+	m = 0;
+	while (m <= 9)
 	{
-		for (n = 48; n <= 57; n++)
+		n = 0;
+		while (n <= 9)
 		{
-			for (o = 48; o <= 57; o++)
+			o = 0;
+			while (o <= 9)
 			{
-				for (p = 48; p <= 57; p++)
+				p = 0;
+				while (p <= 9)
 				{
-					if (((o + p) > (m + n) &&  o >= m) || m < o)
+					if (o != 0 || p != 0)
 					{
-						putchar(m);
-						putchar(n);
+						putchar(m + '0');
+						putchar(n + '0');
 						putchar(' ');
-						putchar(o);
-						putchar(p);
-						if (m + n + o + p == 227 && m == 57)
-						{
-							break;
-						}
-						else
-						{
-							putchar(',');
-							putchar(' ');
-						}
+						putchar(o + '0');
+						putchar(p + '0');
 					}
+					if (p >= 1 || o >= 1)
+					{
+						putchar(',');
+						putchar(' ');
+					}
+					p++;
 				}
+				o++;
 			}
+			n++;
 		}
+		m++;
 	}
 	putchar('\n');
 	return (0);
