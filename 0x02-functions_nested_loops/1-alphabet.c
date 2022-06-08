@@ -3,8 +3,8 @@
 /**
  * main - main point
  *
- * Description: Description goes here
- * REturn: success (0)
+ * Description: description goes here
+ * Return: success (0)
  */
 void print_alphabet(void)
 {
