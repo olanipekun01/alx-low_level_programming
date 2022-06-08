@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - main point
+ * print_alphabet - function prints alhabet in lower case
  *
  * Description: description goes here
  * Return: success (0)
