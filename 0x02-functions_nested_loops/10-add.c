@@ -6,7 +6,7 @@
  * @n: number being added
  * @m: number being added
  *
- * Result: result
+ * Return: result
  */
 int add(int n, int m)
 {
