@@ -3,22 +3,23 @@
 /**
  * print_line - print the character on the terminal
  * Description: prints the _ character
+ * @n: number of times to print character
  * Return: void
  */
 void print_line(int n)
-{
+i{
 	int i;
 
-	if !(n <= 0)
+	if (n <= 0)
 	{
-		for (i = 0; i < n; i++)
-		{
-			_putchar('_');
-		}
 		_putchar('\n');
 	}
 	else
 	{
+		for (i = 0; i <= n; i++)
+		{
+			_putchar('_');
+		}
 		_putchar('\n');
 	}
 }
