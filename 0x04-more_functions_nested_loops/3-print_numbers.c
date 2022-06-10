@@ -11,7 +11,7 @@ void print_numbers(void)
 	c = 0;
 	while (c <= 9)
 	{
-		printf("%d", c);
+		_putchar(c + "0");
 	}
 	_putchar("\n");
 }
