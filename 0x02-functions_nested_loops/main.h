@@ -20,3 +20,7 @@ void times_table(void);
 int add(int, int);
 void print_to_98(int);
 void print_times_table(int);
+void put_unit(int n);
+void put_hundred(int n);
+void put_tens(int n);
+void print_fibonacci(int n);
