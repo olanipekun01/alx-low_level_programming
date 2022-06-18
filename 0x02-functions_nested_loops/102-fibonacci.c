@@ -32,10 +32,8 @@ void print_fibonacci(int n)
 		next_fib = first_no + second_no;
 		first_no = second_no; /* for the next pass */
 		second_no = next_fib; /* for the next pass */
-		
 		printf(", ");
 		printf("%ld", next_fib);
-
 		print_fibonacci(n - 1); /* Go to next term */
 	}
 	putchar('\n');
