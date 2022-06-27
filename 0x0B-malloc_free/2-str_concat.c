@@ -18,7 +18,7 @@ int _strlen(char *s)
 	return (a);
 }
 /**
- * strncat - function to concatnate strings with n bytes
+ * _strncat - function to concatnate strings with n bytes
  * @dest: destination for concatnation
  * @src: source of string
  * @n: int type for size of byte
